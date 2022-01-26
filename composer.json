@@ -1,5 +1,5 @@
 {
-  "name": "evozon-php/entity-extend-bundle",
+  "name": "kalypso63/entity-extend-bundle",
   "type": "symfony-bundle",
   "description": "Slight variation of the original pjarmalavicius/PjEntityExtendBundle - Easy doctrine entities extending",
   "keywords": [
@@ -13,14 +13,13 @@
       "email": "paulius.jarmalavicius@gmail.com"
     },
     {
-      "name": "Balazs Csaba",
-      "homepage": "http://evozon.com",
-      "email": "csaba.balazs@evozon.com"
+      "name": "VANCLOOSTER Mickael",
+      "email": "vanclooster.mickael@evozon.com"
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "symfony/symfony": "^3.0 || ^4.0",
+    "php": "^7.4",
+    "symfony/framework-bundle": "^4.4",
     "doctrine/orm": ">=2.2.3",
     "doctrine/doctrine-bundle": "*"
   },

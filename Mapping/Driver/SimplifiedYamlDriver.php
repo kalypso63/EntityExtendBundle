@@ -82,10 +82,10 @@ class SimplifiedYamlDriver extends DoctrineSimplifiedYamlDriver
     /**
      * Rewrite association target entities to point to extended entity classes.
      *
-     * @param               $className
-     * @param ClassMetadata $metadata
+     * @param $className
+     * @param $metadata
      */
-    public function loadMetadataForClass($className, ClassMetadata $metadata)
+    public function loadMetadataForClass($className, $metadata)
     {
         /* @var $metadata \Doctrine\ORM\Mapping\ClassMetadataInfo */
         parent::loadMetadataForClass($className, $metadata);

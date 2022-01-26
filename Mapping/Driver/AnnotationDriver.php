@@ -41,7 +41,7 @@ class AnnotationDriver extends DoctrineAnnotationDriver
      *
      * {@inheritDoc}
      */
-    public function loadMetadataForClass($className, ClassMetadata $metadata)
+    public function loadMetadataForClass($className, $metadata)
     {
         /* @var $metadata \Doctrine\ORM\Mapping\ClassMetadataInfo */
         parent::loadMetadataForClass($className, $metadata);

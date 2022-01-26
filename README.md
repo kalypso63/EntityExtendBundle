@@ -4,7 +4,7 @@ The EntityExtendBundle is a Symfony3 bundle, which lets extend doctrine ORM enti
 
 # Installation
 ## Composer
-``` composer require evozon-php/entity-extend-bundle ```
+``` composer require kalypso63/entity-extend-bundle ```
 ## Enable the bundle
 ```
 // app/AppKernel.php
